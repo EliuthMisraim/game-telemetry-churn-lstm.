@@ -127,7 +127,7 @@ neural-extraction-dynamics/
 
 Below is the generated visualization representing **Session Replay #042**, showcasing a simulated player transitioning from a calm exploration phase to a severe ambush encounter at the 35-second mark:
 
-![Session Replay stress dashboard](../../reports/figures/tactical_neural_analytics.png)
+![Session Replay stress dashboard](reports/figures/tactical_neural_analytics.png)
 
 #### Interpretation:
 - **0–35s (Calm Exploration)**: Jitter remains extremely low ($\approx 1.4$), click density is sparse, and the virtual heart rate remains stable around a healthy baseline of $79\text{ BPM}$.
@@ -138,7 +138,7 @@ Below is the generated visualization representing **Session Replay #042**, showc
 
 By modeling sequential match histories for $5,000$ synthetic players, Keras 3 successfully learns the frustration trajectory indicative of long-term churn:
 
-![LSTM training performance metrics](../../reports/figures/lstm_training_performance.png)
+![LSTM training performance metrics](reports/figures/lstm_training_performance.png)
 
 #### Key Takeaways:
 - **Optimization**: The binary crossentropy loss decays rapidly within 15 epochs, demonstrating strong gradient updates.
